@@ -1,0 +1,107 @@
+/***************************
+GENERAL
+***************************/
+
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px 20px 10px;
+}
+
+button {
+    background-color: #2175fb;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+button:hover {
+    background-color: #1c60c4;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red !important;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/***************************
+HEADER
+***************************/
+
+header {
+    font-size: 20px;
+}
+
+
+
+/***************************
+FORM
+***************************/
+
+form {
+    display: flex;
+    gap: 10px;
+
+    input {
+        padding: 12px;
+        border-radius: 5px;
+        border: 2px;
+        border-color: #ddd;
+        border-style: solid;
+    }
+}
+
+
+
+/***************************
+CARD
+***************************/
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    margin-bottom: 0;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.star-count {
+    font-weight: 400;
+    display: flex;
+    align-self: end;
+}
+
+.star-icon {
+    color: gold;
+}

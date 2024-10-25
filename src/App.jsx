@@ -1,9 +1,12 @@
 import "./style.css"
+import Header from "./components/Header"
+import RepoSearch from "./components/RepoSearch"
 
 export default function App() {
     return (
-        <>
-            <h1>App</h1>
-        </>
+        <main>
+            <Header />
+            <RepoSearch />
+        </main>
     )
 }
