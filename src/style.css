@@ -20,15 +20,16 @@ main {
     padding: 0 10px 20px 10px;
 }
 
-button {
+button, .button {
     background-color: #2175fb;
     color: #fff;
     padding: 12px;
     border-radius: 5px;
     border-color: transparent;
+    text-decoration: none;
 }
 
-button:hover {
+button:hover, .button:hover {
     background-color: #1c60c4;
     cursor: pointer;
 }
@@ -94,6 +95,10 @@ CARD
         text-decoration: none;
         color: inherit;
     }
+}
+
+.desciption {
+    padding-bottom: 20px;
 }
 
 .star-count {
